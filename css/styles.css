@@ -130,6 +130,10 @@ body {
   justify-content: center;
   gap: 48px;
 }
+.flex-portfolio {
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
 .section-second {
   background-color: #ffffff;
   padding: 120px 0;
@@ -142,6 +146,8 @@ body {
 
 .section-ul .list {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   /* width: 264px; */
 }
 
@@ -163,6 +169,7 @@ body {
 }
 .section-portfolio {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .section-ul .list.section-second-list {
   width: calc((100% - 72px) / 4);
@@ -180,6 +187,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer .logo .span {
@@ -194,8 +202,11 @@ body {
   max-width: 264px;
 }
 .card {
-  padding: 32px 0;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
