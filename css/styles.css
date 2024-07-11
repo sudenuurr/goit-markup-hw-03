@@ -83,8 +83,10 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
-  width: 169px;
   height: 56px;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -109,6 +111,7 @@ body {
 .hero {
   background-color: #2e2f42;
   height: 600px;
+  padding: 188px 0;
 }
 .hero-header {
   font-size: 56px;
@@ -116,7 +119,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
 }
 .flex-hero {
   display: flex;
